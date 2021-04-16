@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Orlistat
 {
-    public static class Orlistat
+    public static class Orlistats
     {
         public static byte[] Compress(byte[] source)
         {
@@ -100,9 +100,11 @@ namespace Orlistat
 
     public static class OrlistatExtension
     {
-        public static byte[] Compress(this string message) => Orlistat.Compress(Encoding.UTF8.GetBytes(message));
-        public static async ValueTask<byte[]> CompressAsync(this string message) => await Orlistat.CompressAsync(Encoding.UTF8.GetBytes(message));
-        public static string Decompress(this byte[] source) => Encoding.UTF8.GetString(Orlistat.Decompress(source));
-        public static async ValueTask<string> DecompressAsync(this byte[] source) => Encoding.UTF8.GetString(await Orlistat.DecompressAsync(source));
+        public static byte[] Compress(this byte[] source) => Orlistats.Compress(source);
+        public static byte[] Compress(this string message) => Orlistats.Compress(Encoding.UTF8.GetBytes(message));
+        public static async ValueTask<byte[]> CompressAsync(this byte[] source) => await Orlistats.CompressAsync(source);
+        public static async ValueTask<byte[]> CompressAsync(this string message) => await Orlistats.CompressAsync(Encoding.UTF8.GetBytes(message));
+        public static string Decompress(this byte[] source) => Encoding.UTF8.GetString(Orlistats.Decompress(source));
+        public static async ValueTask<string> DecompressAsync(this byte[] source) => Encoding.UTF8.GetString(await Orlistats.DecompressAsync(source));
     }
 }
