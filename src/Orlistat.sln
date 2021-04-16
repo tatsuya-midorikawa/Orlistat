@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orlistat", "Orlistat\Orlistat.csproj", "{9625CDD9-1A02-4154-A725-A6AEA0C4D2D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orlistat.Test", "Orlistat.Test\Orlistat.Test.csproj", "{3066D0A6-032A-4366-8A69-344559D8502D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9625CDD9-1A02-4154-A725-A6AEA0C4D2D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9625CDD9-1A02-4154-A725-A6AEA0C4D2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9625CDD9-1A02-4154-A725-A6AEA0C4D2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9625CDD9-1A02-4154-A725-A6AEA0C4D2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3066D0A6-032A-4366-8A69-344559D8502D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3066D0A6-032A-4366-8A69-344559D8502D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3066D0A6-032A-4366-8A69-344559D8502D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3066D0A6-032A-4366-8A69-344559D8502D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43E76621-1472-416D-A5FA-728C24219C4F}
+	EndGlobalSection
+EndGlobal
